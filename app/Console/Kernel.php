@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         Commands\Exo\MakeServiceCommand::class,
         Commands\Exo\MakeRepositoryCommand::class,
+        Commands\Exo\MakeControllerCommand::class,
     ];
 
     /**
