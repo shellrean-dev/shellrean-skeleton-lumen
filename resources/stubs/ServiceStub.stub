@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace DummyNamespace;
+namespace {{ namespace }};
 
-use ShellreanDev\Utils\Error;
-use ShellreanDev\Repositories\AbstractRepository;
+use {{ rootNamespace }}\Utils\Error;
+use {{ rootNamespace }}\Repositories\AbstractRepository;
 
 /**
- * DummyClass repository
+ * {{ class }} repository
  * @author shellrean <wandinak17@gmail.com>
  */
-final class DummyClass extends AbstractRepository
+final class {{ class }} extends AbstractRepository
 {
     /**
      * Table of repository
