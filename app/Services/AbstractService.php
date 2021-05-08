@@ -13,7 +13,7 @@ use ShellreanDev\Repositories\Interface\RepositoryInterface;
 use ShellreanDev\Cache\Interface\CacheHandlerInterface;
 use ShellreanDev\Services\Interface\ServiceInterface;
 
-abstract class AbstractClass implements ServiceInterface
+abstract class AbstractService implements ServiceInterface
 {
     /**
      * we need repository to interact 
