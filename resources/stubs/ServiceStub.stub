@@ -3,17 +3,13 @@
 namespace {{ namespace }};
 
 use {{ rootNamespace }}\Utils\Error;
-use {{ rootNamespace }}\Repositories\AbstractRepository;
+use {{ rootNamespace }}\Services\AbstractService;
 
 /**
- * {{ class }} repository
+ * class {{ class }}
  * @author shellrean <wandinak17@gmail.com>
  */
-final class {{ class }} extends AbstractRepository
+final class {{ class }} extends AbstractService
 {
-    /**
-     * Table of repository
-     * @var string $table
-     */
-    protected string $table = '';
+
 }

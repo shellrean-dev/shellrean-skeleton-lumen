@@ -2,11 +2,11 @@
 
 namespace {{ namespace }};
 
-use {{ rootNamespace }}Utils\Error;
-use {{ rootNamespace }}Repositories\AbstractRepository;
+use {{ rootNamespace }}\Utils\Error;
+use {{ rootNamespace }}\Repositories\AbstractRepository;
 
 /**
- * {{ class }} repository
+ * class {{ class }}
  * @author shellrean <wandinak17@gmail.com>
  */
 final class {{ class }} extends AbstractRepository
