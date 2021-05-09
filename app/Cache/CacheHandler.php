@@ -8,8 +8,8 @@ namespace ShellreanDev\Cache;
  * ---------------------------------------
  * Here we will handle and interact with cache
  */
-use ShellreanDev\Cache\Interface\CacheHandlerInterface;
 
+ 
 class CacheHandler implements CacheHandlerInterface
 {
     

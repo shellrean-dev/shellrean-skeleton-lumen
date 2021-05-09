@@ -1,15 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace ShellreanDev\Repositories\Interface;
+namespace ShellreanDev\Services;
 
 /**
  * @author shellrean <wandinak17@gmail.com>
  * @year 2021
  * ---------------------------------------
- * Here we create interface how to interact
- * with database
+ * Here we create standart method service have
  */
-interface RepositoryInterface
+interface ServiceInterface
 {
     
 }

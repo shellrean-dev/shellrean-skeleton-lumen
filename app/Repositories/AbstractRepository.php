@@ -9,7 +9,6 @@ namespace ShellreanDev\Repositories;
  * Here we create our common method
  * reusable
  */
-use ShellreanDev\Repositories\Interface\RepositoryInterface;
 
 abstract class AbstractRepository implements RepositoryInterface
 {

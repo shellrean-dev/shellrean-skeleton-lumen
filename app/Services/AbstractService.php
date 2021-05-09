@@ -9,9 +9,8 @@ namespace ShellreanDev\Services;
  * Here we create our common method 
  * reusable
  */
-use ShellreanDev\Repositories\Interface\RepositoryInterface;
+use ShellreanDev\Repositories\RepositoryInterface;
 use ShellreanDev\Cache\Interface\CacheHandlerInterface;
-use ShellreanDev\Services\Interface\ServiceInterface;
 
 abstract class AbstractService implements ServiceInterface
 {
